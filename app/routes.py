@@ -4,7 +4,7 @@ from flask import Flask, request
 app = Flask(__name__)
 
 
-@app.get("/")                       #get is a method, the dot is the operator, the at symbol is a decorator
+@app.get("/aboutme")                       #get is a method, the dot is the operator, the at symbol is a decorator
 def index():
     me = {
         "first_name": "Xyrone",
